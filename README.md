@@ -53,3 +53,65 @@ Dormint enables the creation of custom business nodes that encapsulate the logic
 Once created, custom integrations can be reused across multiple projects or shared within the Dormint marketplace, allowing for collaborative development and scaling of AI agents.  
 
 With these capabilities, Dormint empowers users to enhance their AI agents with virtually unlimited connectivity and tailor-made functionality.
+
+
+# Node example  
+
+### TelegramBot
+
+Inputs:
+- Bot token
+- Filter for which user messages to process
+- Description of how to generate a response for the user
+
+UI interface:
+- Two handles for receiving and sending messages
+- UI inputs with bot token and prompts descriptions
+
+Code template which represents docker-based service 
+A part of the service code is missing and will be written using ChatGPT based on the input data.
+
+
+# Revenue streams, how the Economy of an AI Agent Works  
+
+The AI agent ecosystem is made up of several interconnected components, each playing a crucial role in generating value and driving revenue. Here's how it operates:
+
+1. **AI Agent Creators**:  
+   These are individuals or organizations that conceptualize, design, and deploy AI agents. They build the logic, functionality, and purpose of each agent, whether it's for content generation, trading, customer service, or other applications.
+
+2. **Teams Providing Business Logic Nodes**:  
+   These teams create specialized nodes that define the business logic of AI agents. These nodes represent various functionalities such as social media integrations, financial tools, health-related APIs, or other domain-specific logic. Their role is to make it easier for AI agents to interact with external services and execute specific tasks effectively.
+
+3. **Cloud Providers**:  
+   Cloud providers host the infrastructure needed for AI agents to run. These include the servers, storage, and computational resources required for processing large amounts of data. Cloud providers play an essential role in ensuring that AI agents are scalable, reliable, and performant.
+
+4. **Platforms for AI Agent Operation**:  
+   These platforms are where the AI agents operate and generate value. Examples include social media platforms (like Instagram, TikTok, YouTube), trading platforms, subscription services, and other ecosystems where the AI agents can perform tasks such as generating content, managing accounts, providing services, or even trading financial assets.
+
+### **Revenue Model Breakdown:**
+
+- **AI Agents** generate revenue in various ways, such as:
+   - **Content Creation**: AI agents can generate high-quality content for platforms like YouTube or Instagram, monetize through ads, sponsorships, or product promotions.
+   - **Subscription-based Services**: AI agents can offer automated subscription services, such as premium content, automated support, or personalized experiences.
+   - **Trading**: AI agents can execute trading strategies on financial markets, making profits from the stock market or cryptocurrency trading.
+   - **Other Services**: AI agents can engage in activities such as lead generation, automated consultations, or even affiliate marketing, creating additional income streams.
+
+- **Platform’s Commission**:  
+   For hosting and enabling these AI agents, the platform takes a **commission** for each agent created and deployed on their infrastructure. This is how the platform generates its income—by enabling creators to launch their agents and take a share of the profits.
+
+- **Cloud Provider's Fee**:  
+   Cloud providers charge AI agent creators based on their usage of computing resources. This could include storage, processing power, and network bandwidth. The pricing model is typically usage-based, where the more resources an AI agent consumes, the higher the cost to the agent creator.
+
+- **Node Creators' Commission**:  
+   Teams or developers who provide business logic nodes take a **commission** whenever their nodes are used within an AI agent. This commission is typically a fee based on the amount of usage or the frequency with which their nodes are invoked by AI agents in operation.
+
+### **Economic Flow**:  
+The economic flow works as follows:  
+1. **AI Agent Creators** develop and deploy their agents.  
+2. The platform helps them monetize the agents by hosting and facilitating revenue-generating activities (e.g., content creation, subscription services).  
+3. **Cloud Providers** provide the necessary infrastructure for these agents to operate, charging for their services.  
+4. **Node Providers** charge a commission based on the usage of their logic by the agents.  
+5. **Revenue Generation**: As the AI agents generate revenue, the creators earn money based on the performance and success of the agents, while the platform, cloud provider, and node creators also earn from their respective commissions.
+
+This creates a multi-layered, collaborative economy where various stakeholders contribute to and benefit from the value generated by AI agents.
+
