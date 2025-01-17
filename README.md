@@ -35,4 +35,21 @@ These integrations include:
 - Triggers for health deterioration  
 and many more, enabling the development of AI agents based on a person's health condition.
 
+The platform includes built-in configurations with popular social networks such as X, TikTok, Instagram, Facebook, YouTube, and others. It allows users to respond to new posts in these networks, create AI-generated content, and post it directly, enabling users to monetize their activity on these platforms.
 
+The platform also offers numerous integrations with various AI services such as MidJourney, Anthropic, ChatGPT, and others. These integrations enable the creation of high-quality materials using AI and significantly enhance the user experience.
+
+# Creating Custom Integrations
+
+The Dormint platform allows users to build their own integrations with external services, providing flexibility to expand functionality based on unique needs. Key features include:  
+
+1. API Connectivity:
+Users can connect to any service that offers an API by defining endpoints, authentication methods, and request parameters directly within the platform.  
+   
+2. Custom Nodes:
+Dormint enables the creation of custom business nodes that encapsulate the logic for interacting with external services. Users can define inputs, outputs, and data transformations tailored to the specific integration.  
+
+3. Scalable Design: 
+Once created, custom integrations can be reused across multiple projects or shared within the Dormint marketplace, allowing for collaborative development and scaling of AI agents.  
+
+With these capabilities, Dormint empowers users to enhance their AI agents with virtually unlimited connectivity and tailor-made functionality.
