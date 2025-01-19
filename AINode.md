@@ -38,8 +38,6 @@ def main() -> None:
     bot_token = $BOT_TOKEN
     application = Application.builder().token(bot_token).build()
     application.add_handler(MessageHandler($MESSAGE_FILTER, handle_message))
-
-    # Запускаем бота
     application.run_polling()
 
 if __name__ == "__main__":
